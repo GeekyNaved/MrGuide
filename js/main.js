@@ -1,6 +1,5 @@
 function myFunction() {
-    var footer = document.querySelector('footer');
-    footer.classList.add("fixed");
+    
     var input, filter, ul, li, a, i, txtValue;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -19,8 +18,4 @@ function myFunction() {
     }
 }
 
-function remove() {
-    var footer = document.querySelector('footer');
-    footer.classList.remove("fixed");
-}
 
